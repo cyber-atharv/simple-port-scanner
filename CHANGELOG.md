@@ -14,3 +14,6 @@ All notable changes to simple-port-scanner will be documented in this file.
 ## [0.1.3] - 2025-04-28
 - perf: optimize connection timeout tuning for LAN scanning
 
+## [0.1.4] - 2025-05-01
+- fix: properly close hanging socket descriptors on timeout
+
